@@ -21,10 +21,28 @@ body{
     align-items: center;
     justify-content: center;
 }
+.card__contianer .card__contianer__titlePart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.card__contianer .card__contianer__titlePart h2{
+    text-align: center;
+    color: #fff;
+}
 .card__contianer .card__contianer__titlePart img{
     width: 200px;
 }
-
+.card__contianer .card__contianer__titlePart a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
 .card__contianer .card img{
     width: 200px;
+}
+.card__contianer .card p{
+    font-size: 25px;
+    margin-top: 30px;
 }
